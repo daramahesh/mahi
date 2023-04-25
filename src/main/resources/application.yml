@@ -1,0 +1,8 @@
+server:
+  port: 1430
+
+#spring:
+#  security:
+#    user:
+#      name: mahesh
+#      password: mahesh
