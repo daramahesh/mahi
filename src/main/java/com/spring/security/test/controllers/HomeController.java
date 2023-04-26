@@ -14,6 +14,7 @@ public class HomeController {
     }
 
     @GetMapping("/public")
+    @PreAuthorize("hasRole('PUBLIC')")
     public ResponseEntity<String> publicUser() {
         return ResponseEntity.ok("i am public user");
     }
